@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 interface ProductCardProps {
   name: string;
@@ -30,10 +31,11 @@ export default function ProductCard({
       {/* Image Placeholder */}
       <div className="aspect-[3/4] bg-gradient-to-br from-yellow-500/20 to-orange-500/20 flex items-center justify-center relative overflow-hidden">
         {image ? (
-          <img
+          <Image
             src={image}
             alt={name}
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+            fill
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
           />
         ) : (
           <div className="text-center">

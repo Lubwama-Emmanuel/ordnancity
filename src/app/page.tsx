@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import ProductCard from "@/components/ProductCard";
 
@@ -15,7 +14,7 @@ export default function Home() {
     {
       name: "Youth Culture T-Shirt",
       description:
-        "Eco-conscious cotton tee celebrating Uganda's creative youth. Sourced from Owino traders, produced by local artisans. Part of our cultural documentation series.",
+        "Eco-conscious cotton tee celebrating Uganda&apos;s creative youth. Sourced from Owino traders, produced by local artisans. Part of our cultural documentation series.",
       price: "UGX 45,000",
       category: "Cultural Series",
       isComingSoon: true,
@@ -31,7 +30,7 @@ export default function Home() {
     {
       name: "Kampala Street Hoodie",
       description:
-        "Collaboration piece inspired by Kampala's skate culture. Features unique prints celebrating street art and youth movements. Collector's edition.",
+        "Collaboration piece inspired by Kampala&apos;s skate culture. Features unique prints celebrating street art and youth movements. Collector&apos;s edition.",
       price: "UGX 75,000",
       category: "Artist Collab",
       isComingSoon: true,
@@ -102,10 +101,10 @@ export default function Home() {
                 produced by our network of skilled tailors.
               </p>
               <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-                Our mission extends beyond fashion - we're cultural
-                documentarians, preserving and amplifying the voices of Uganda's
-                creative youth through sustainable craftsmanship and meaningful
-                collaborations.
+                Our mission extends beyond fashion - we&apos;re cultural
+                documentarians, preserving and amplifying the voices of
+                Uganda&apos;s creative youth through sustainable craftsmanship
+                and meaningful collaborations.
               </p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center">
@@ -146,7 +145,7 @@ export default function Home() {
               style={{ animationDelay: "0.2s" }}
             >
               Built on authentic partnerships and sustainable practices that
-              honor Uganda's creative ecosystem
+              honor Uganda&apos;s creative ecosystem
             </p>
           </div>
 
@@ -170,7 +169,7 @@ export default function Home() {
               <div className="text-4xl mb-4">🏪</div>
               <h3 className="text-xl font-bold mb-3">Owino Materials</h3>
               <p className="text-gray-400 text-sm">
-                Sustainable materials sourced from Kampala's iconic Owino
+                Sustainable materials sourced from Kampala&apos;s iconic Owino
                 market, supporting local traders
               </p>
             </div>
@@ -254,7 +253,7 @@ export default function Home() {
               <div className="text-4xl mb-4">🌟</div>
               <h3 className="text-xl font-bold mb-3">Youth Culture</h3>
               <p className="text-gray-400">
-                Reflecting the vibrant energy of Uganda's young generation
+                Reflecting the vibrant energy of Uganda&apos;s young generation
               </p>
             </div>
             <div
@@ -319,7 +318,7 @@ export default function Home() {
               className="text-xl text-gray-300 max-w-3xl mx-auto animate-fade-in-up"
               style={{ animationDelay: "0.2s" }}
             >
-              Every piece contributes to Uganda's creative economy and
+              Every piece contributes to Uganda&apos;s creative economy and
               environmental sustainability
             </p>
           </div>
@@ -437,7 +436,7 @@ export default function Home() {
               <div className="text-4xl mb-4">🛹</div>
               <h3 className="text-xl font-bold mb-3">Skate Events</h3>
               <p className="text-gray-400 text-sm mb-4">
-                Supporting Kampala's skate scene with limited drops and
+                Supporting Kampala&apos;s skate scene with limited drops and
                 community events
               </p>
               <div className="text-yellow-500 text-sm font-semibold">
@@ -474,8 +473,8 @@ export default function Home() {
               className="text-xl text-gray-300 max-w-3xl mx-auto animate-fade-in-up"
               style={{ animationDelay: "0.2s" }}
             >
-              Amplifying Uganda's creative ecosystem through music, art, skate
-              culture, and diaspora connections
+              Amplifying Uganda&apos;s creative ecosystem through music, art,
+              skate culture, and diaspora connections
             </p>
           </div>
 
@@ -499,7 +498,7 @@ export default function Home() {
               <div className="text-4xl mb-4">🛹</div>
               <h3 className="text-xl font-bold mb-3">Skate Culture</h3>
               <p className="text-gray-400 text-sm">
-                Supporting Kampala's skate scene and street culture through
+                Supporting Kampala&apos;s skate scene and street culture through
                 limited edition drops and events
               </p>
             </div>
@@ -542,7 +541,7 @@ export default function Home() {
               <div className="text-4xl mb-4">🏪</div>
               <h3 className="text-lg font-bold mb-3">Sourcing at Owino</h3>
               <p className="text-gray-400 text-sm">
-                Early morning trips to Kampala's iconic market, selecting
+                Early morning trips to Kampala&apos;s iconic market, selecting
                 sustainable materials from local traders
               </p>
             </div>
@@ -567,7 +566,7 @@ export default function Home() {
               <h3 className="text-lg font-bold mb-3">Story Creation</h3>
               <p className="text-gray-400 text-sm">
                 Each piece gets its cultural narrative, connecting wearers to
-                Uganda's rich heritage and youth culture
+                Uganda&apos;s rich heritage and youth culture
               </p>
             </div>
 
@@ -692,9 +691,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 text-sm italic">
-                "Each piece tells a story of our heritage. It's not just
-                clothing - it's cultural documentation that I'm proud to wear
-                and pass down."
+                &quot;Each piece tells a story of our heritage. It&apos;s not
+                just clothing - it&apos;s cultural documentation that I&apos;m
+                proud to wear and pass down.&quot;
               </p>
             </div>
 
@@ -712,9 +711,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 text-sm italic">
-                "Finally, fashion that connects me to my roots while staying
-                true to contemporary style. The limited drops make each piece
-                special."
+                &quot;Finally, fashion that connects me to my roots while
+                staying true to contemporary style. The limited drops make each
+                piece special.&quot;
               </p>
             </div>
 
@@ -732,8 +731,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 text-sm italic">
-                "The sustainability aspect drew me in, but the cultural depth
-                keeps me coming back. Every piece is a conversation starter."
+                &quot;The sustainability aspect drew me in, but the cultural
+                depth keeps me coming back. Every piece is a conversation
+                starter.&quot;
               </p>
             </div>
           </div>
